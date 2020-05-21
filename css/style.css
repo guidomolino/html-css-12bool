@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DEBUG:  */
+body{
+  background-color: pink;
+}
+
+[class^="col-"]{
+  border: 2px solid black;
+}
+
+.height1{
+  height: 10vh;
+}
+
+.height2{
+  height: calc(90vh / 4);
+}
+
+.nest{
+  background-color: red;
+  border: 2px white solid;
+}
