@@ -13,6 +13,10 @@ body{
   border: 2px solid black;
 }
 
+.debug-2 > [class^="col-"]{
+  padding: 4px;
+}
+
 .debug-2 [class^="col-"] > [class^="col-"]{
   border: 2px solid white;
   background-color: red;
