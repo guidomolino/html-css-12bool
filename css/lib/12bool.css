@@ -48,4 +48,5 @@
 }
   [class^="col-"] {
   float: left;
+  height: 100%;
 }

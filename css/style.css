@@ -13,15 +13,23 @@ body{
   border: 2px solid black;
 }
 
-.height1{
-  height: 10vh;
-}
-
-.height2{
-  height: calc(90vh / 4);
-}
-
-.nest{
+.debug-2 [class^="col-"] > [class^="col-"]{
+  border: 2px solid white;
   background-color: red;
-  border: 2px white solid;
+}
+
+.debug-1{
+  height: 10vh;
+  text-align: center;
+}
+
+.debug-2{
+  height: calc(90vh / 4);
+  text-align: center;
+}
+
+.debug-2 span{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
